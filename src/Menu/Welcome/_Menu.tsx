@@ -5,8 +5,6 @@ import { useState } from 'react';
 import { GetMessageApi } from '../MenuSystem';
 import { SiteName } from "../../Data/Strings";
 
-
-
 function Page() {
     const [logIndex, setLogIndex] = useState(0)
 
@@ -29,7 +27,7 @@ function Page() {
 
     return <div>
         <Layout style={{
-            backgroundImage: "linear-gradient(140deg,white, rgba(0, 0, 0,0.5) ),url(./images/Welcome.jpg)",
+            backgroundImage: "linear-gradient(140deg,white, rgba(0, 0, 0,0.5) ),url(./images/welcome.jpg)",
             backgroundRepeat: "no-repeat",
             backgroundSize: "cover",
             backgroundPosition: "center left"
