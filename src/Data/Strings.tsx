@@ -1,0 +1,1 @@
+export const SiteName = "COM3D2资源分享站";
