@@ -2,6 +2,12 @@ import { ReactNode } from "react"
 
 const Log: { time: string, content: ReactNode }[] = [
     {
+        time: "2023.8.7", content: <ul>
+            <li>成功用小号在b站重新补档，故视频换源。</li>
+            <li>后续开始制作Mod教程，网站较长一段时间不会更新。</li>
+        </ul>
+    },
+    {
         time: "2023.8.2", content: "使用OneDrive进行了视频补档，支持在线观看。"
     },
     {
@@ -11,12 +17,11 @@ const Log: { time: string, content: ReactNode }[] = [
         time: "2023.7.29", content: "紧急修了些Bug"
     },
     {
-        time: "2023.7.28", content: <div>
-            <ul>
-                <li>取消了v3.5汉化的开发，将其功能拆分到v3和v4中实现。</li>
-                <li>网站内容优化。</li>
-            </ul>
-        </div>
+        time: "2023.7.28", content: <ul>
+            <li>取消了v3.5汉化的开发，将其功能拆分到v3和v4中实现。</li>
+            <li>网站内容优化。</li>
+        </ul>
+
     },
     {
         time: "2023.7.27", content: <div>

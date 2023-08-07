@@ -30,7 +30,7 @@ const MenuItem = {
             message={
                 <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between" }}>
                     我已制作COM3D2的入门教程，辅助你阅读余下的文章，这样即使是小白也不用太担心了。
-                    <Button type="primary" href="https://bdxk-my.sharepoint.com/:v:/g/personal/bdffzi_bdxk_onmicrosoft_com/ERFDuFuK_XROkUrAeO5Gf2UBX7ril4wqH34r6iueGhu7wQ?e=FtUmBR" target="_Black" >观看视频</Button>
+                    <Button type="primary" href="https://www.bilibili.com/video/BV1yp4y1V7Ej" target="_Black" >观看视频</Button>
                 </div>
             }
         />
