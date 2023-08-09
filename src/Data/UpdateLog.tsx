@@ -2,6 +2,12 @@ import { ReactNode } from "react"
 
 const Log: { time: string, content: ReactNode }[] = [
     {
+        time: "2023.8.9", content: <ul>
+            <li>感谢燃烛大佬的捐赠，已验证Mod增加了10个。</li>
+            <li>9，10月份要备考，所以Mod制作教程可能会出的很迟。</li>
+        </ul>
+    },
+    {
         time: "2023.8.7", content: <ul>
             <li>成功用小号在b站重新补档，故视频换源。</li>
             <li>后续开始制作Mod教程，网站较长一段时间不会更新。</li>

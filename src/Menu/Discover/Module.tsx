@@ -23,11 +23,15 @@ const MenuItem = {
             {
                 href: "https://wwzc.lanzouj.com/b04k6tasd",
                 text: "已验证Mod",
-                content: <ul>
-                    <li>有预览图</li>
-                    <li>有来源说明</li>
-                    <li>确认可用，无文件缺漏</li>
-                </ul>
+                content: <div>
+                    <ul>
+                        <li>有预览图</li>
+                        <li>有来源说明</li>
+                        <li>确认可用，无文件缺漏</li>
+                    </ul>
+                    <br />
+                    <Alert message="相关Mod因经过二次整理，和源文件会略有区别。"></Alert>
+                </div>
             },
             {
                 href: "https://wwzc.lanzouj.com/b04k6tawh",
@@ -43,11 +47,12 @@ const MenuItem = {
         return <div>
             <Typography.Title level={2}>从哪能找到Mod？</Typography.Title>
             <Typography.Paragraph>
-                直接查看左侧同组的“相关链接”栏目，源头链接都已经放在里面了。
-                <br />
-                部分论坛支持搜索功能，我最早就是在那找到Mod的，大部分链接会将你导向推特。
-                <br />
-                另外你也可以尝试加入一些QQ群，因为我发现手里揣着Mod整合包的人还蛮多的，而且都是上百G的数量，如果你不想自己去源头收集，可以找他们。
+                <ol>
+                    <li>直接查看左侧同组的“相关链接”栏目，源头链接都已经放在里面了。</li>
+                    <li>部分论坛支持搜索功能，我最早就是在那找到Mod的，大部分链接会将你导向推特。</li>
+                    <li>另外你也可以尝试加入一些QQ群，因为我发现手里揣着Mod整合包的人还蛮多的，而且都是上百G的数量，如果你不想自己去源头收集，可以找他们。</li>
+                    <li>特定角色的Mod确实很难找，但不代表不存在，你想要的Mod基本都有，但他们基本都是内部且商业性质的，你需要人脉和资金才行，这游戏的水比你想象的要深的多。</li>
+                </ol>
             </Typography.Paragraph>
 
             <Typography.Title level={2}>本站的Mod分享</Typography.Title>
@@ -56,14 +61,14 @@ const MenuItem = {
                     message="关于本站的Mod的收集策略："
                     description={
                         <div>
-                            如今看来大部分人都是不缺Mod，而且搜集大量Mod也不是很难（原因见下方“从哪能找到Mod？”），所以走量不是本站的目标。
+                            如今看来大部分人都是不缺Mod，而且搜集大量Mod也不是很难（原因见上方“从哪能找到Mod？”），所以走量不是本站的目标。
                             <br />目前网上流传的大部分Mod都是直接爬虫爬取的，缺乏整理和有效性验证，另外对于一些特定角色的Mod也会很难找。
                             <br />所以我后面的目标以收集套装为主，尽可能集齐系列作品，制作一些需求大但无公开版的Mod，当然主要还是自用，看个人癖好了。
                             <br />另外，如果你也有些散装Mod愿意分享，欢迎联系我投稿╰(￣ω￣ｏ)
                         </div>
                     }
                 />
-                <Alert type="success" message="站长目前的收集癖好：原神"></Alert>
+                <Alert type="success" message="站长目前的收集癖好：无（因为正在赶制Mod制作教程）"></Alert>
                 <Typography.Paragraph>
 
                     考虑工作量资金等因素，目前资源都直接放在了蓝奏云上存储和展示，当然我也在自己电脑上留了备份。
