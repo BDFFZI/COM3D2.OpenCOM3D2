@@ -2,6 +2,12 @@ import { ReactNode } from "react"
 
 const Log: { time: string, content: ReactNode }[] = [
     {
+        time: "2023.8.11", content: <ul>
+            <li>感谢群友的分享，增加了两条找资源的链接。</li>
+            <li>新增了“赛马娘-米浴”的Mod一份。</li>
+        </ul>
+    },
+    {
         time: "2023.8.9", content: <ul>
             <li>感谢燃烛大佬的捐赠，已验证Mod增加了10个。</li>
             <li>9，10月份要备考，所以Mod制作教程可能会出的很迟。</li>

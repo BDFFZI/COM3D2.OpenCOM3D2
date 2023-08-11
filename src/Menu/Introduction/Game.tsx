@@ -47,7 +47,7 @@ const MenuItem = {
         <li>
           <Typography.Paragraph>
             <Space direction='vertical'>
-              通过以下网站搜索COM3D2，挑选一个合适自己的游戏版本。
+              通过左侧“发现-相关链接”栏目中“找游戏”板块中提供网站搜索COM3D2，寻找自己需要的游戏本体或DLC，或使用下面的推荐版本。
               <div>
                 <Space>
                   <Popconfirm
@@ -61,10 +61,9 @@ const MenuItem = {
                       </Typography.Paragraph>
                     }
                   >
-                    <Button type="primary">COM3D2 2.28（强烈推荐）</Button>
+                    <Button type="primary">COM3D2 2.28 全DLC整合版（强烈推荐）</Button>
                   </Popconfirm>
-                  <Button href={Links.get("GGBases")} target="_blank" rel="noreferrer">GGBases（国内可用）</Button>
-                  <Button href={Links.get("Sukebei")} target="_blank" rel="noreferrer">Sukebei</Button>
+                  <Button disabled>随时间推移，整合包中的DLC一定会有缺漏，如果有强烈需求，那你可以自己去左侧相关链接的栏目中尝试更新资源</Button>
                 </Space>
               </div>
               <Alert
@@ -107,7 +106,7 @@ const MenuItem = {
             <a href={Links.get("COM3D2产品一览")} target="_blank" rel="noreferrer">
               COM3D2产品一览
             </a>
-            ，你可以以此查缺补漏。)
+            ，你可以在此查缺补漏。)
           </Typography.Paragraph>
         </li>
       </ol >

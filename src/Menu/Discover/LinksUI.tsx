@@ -18,6 +18,7 @@ const MenuItem = {
                     <Link name="KISS公司作品时间线" />
                     <Link name="COM3D2产品一览" />
                     <Link name="COM3D2性格包一览" />
+                    <Link name="COM3D2全DLC一览（商店）" />
                     <Link name="COM3D2版本更新说明和下载" />
                 </ul>
             </Descriptions.Item>
@@ -36,11 +37,13 @@ const MenuItem = {
                 </ul>
                 <Alert type="success" showIcon message="社区的功能往往是复合的，所以这里面也可以找到插件Mod攻略等资源的分享！"></Alert>
             </Descriptions.Item>
-            <Descriptions.Item label="找游戏">
+            <Descriptions.Item label="找游戏(包括DLC)">
                 <ul>
                     <Link name="GGBases" />
                     <Link name="Sukebei" />
-                    <Link name="COM3D2.5纯本体下载" description="开发测试用" />
+                    <Link name="R18Manga" />
+                    <Link name="AnimeSharing" />
+                    <Link name="COM3D2.5纯本体下载" />
                 </ul>
             </Descriptions.Item>
             <Descriptions.Item label="找插件">
