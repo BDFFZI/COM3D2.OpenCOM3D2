@@ -18,7 +18,8 @@ const MenuItem = {
                     <Link name="KISS公司作品时间线" />
                     <Link name="COM3D2产品一览" />
                     <Link name="COM3D2性格包一览" />
-                    <Link name="COM3D2全DLC一览（商店）" />
+                    <Link name="COM3D2商店（全DLC一览）" />
+                    <Link name="COM3D2动态" />
                     <Link name="COM3D2版本更新说明和下载" />
                 </ul>
             </Descriptions.Item>

@@ -4,7 +4,8 @@ export type LinkKey =
     | "COM3D2产品一览"
     | "COM3D2版本更新说明和下载"
     | "COM3D2性格包一览"
-    | "COM3D2全DLC一览（商店）"
+    | "COM3D2商店（全DLC一览）"
+    | "COM3D2动态"
     | "COM3D2性格包Preset文件"
     | "COM3D2SeesaaWiki"
     | "COM3D2SeesaaWiki_Mod制作"
@@ -29,7 +30,8 @@ const Links = new Map<LinkKey, string>();
 Links.set("KISS公司作品时间线", "https://www.kisskiss.tv/kiss/product.html");
 Links.set("COM3D2产品一览", "https://com3d2.jp/");
 Links.set("COM3D2版本更新说明和下载", "https://com3d2.jp/update/");
-Links.set("COM3D2全DLC一览（商店）", "https://com3d2-shop.s-court.me/top/tag/none/tc/1");
+Links.set("COM3D2商店（全DLC一览）", "https://com3d2-shop.s-court.me/top/tag/none/tc/1");
+Links.set("COM3D2动态", "https://www.kisskiss.tv/kiss/");
 Links.set("COM3D2性格包一览", "https://com3d2.jp/#prod03");
 Links.set("COM3D2性格包Preset文件", "https://wwzc.lanzouj.com/ixYBP12k297c");
 Links.set("COM3D2SeesaaWiki", "https://com3d2.game-info.wiki/")
