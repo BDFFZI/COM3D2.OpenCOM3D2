@@ -18,6 +18,15 @@ const bug: { title: string, content: ReactNode }[] = [
         title: "摄影模式下“场景选择”时包含了人物就会导致游戏黑屏？",
         content: "已确定是汉化文件的问题，只要移除相关汉化文件就可解决。"
     },
+    {
+        title: "小黑窗报错 System.Exception: INTERNAL configuration error: failed to get configuration 'system.diagnostics'",
+        content:
+            <div>
+                原因和影响都不明，但确实有少些人遇到了该问题，有人说这是BepInEx插件加载器的问题，如果是真的那你可以研究另外一款叫Sybaris的插件加载器。
+                <br></br>可以参考这个翻译插件的安装手册，里面也有下载地址，https://github.com/ghorsington/CM3D2.YATranslator/wiki/Installation。
+                <br></br>其实大部分插件都是原属于Sybaris的，所以使用这个老式插件加载器也不会太影响体验，但具体能走到哪一步就要看个人动手能力了。
+            </div>
+    },
 ]
 
 const MenuItem = {
