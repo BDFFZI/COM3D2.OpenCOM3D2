@@ -2,6 +2,9 @@ import { ReactNode } from "react"
 
 const Log: { time: string, content: ReactNode }[] = [
     {
+        time: "2023.8.16", content: "增加“已知漏洞”分栏，增加Mod教程序章。"
+    },
+    {
         time: "2023.8.11", content: <ul>
             <li>感谢群友的分享，增加了两条找资源的链接。</li>
             <li>新增了“赛马娘-米浴”的Mod一份。</li>
