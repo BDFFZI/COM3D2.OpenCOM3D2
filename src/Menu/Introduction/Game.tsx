@@ -89,13 +89,15 @@ const MenuItem = {
             <Space direction='vertical'>
               获取到游戏的种子或磁链后，使用p2p下载软件进行下载（新建离线任务），比如：
               <ul>
-                <li>百度网盘</li>
-                <li>迅雷（小白推荐用这个）</li>
+                国内下载器（限速，有敏感文件问题）：
+                <li>百度网盘（因大小受限没用过）</li>
+                <li>迅雷（容易卡99%，小白推荐）</li>
+                国外下载器（不限速但要倒弄，受网络环境影响）
                 <li>
                   qBittorrent
-                  <a href="https://www.bilibili.com/video/BV1CM411B7Fu" target="_blank" rel="noreferrer" >（开源软件，不限速，无敏感文件问题，个人推荐）</a>
+                  <a href="https://www.bilibili.com/video/BV1CM411B7Fu" target="_blank" rel="noreferrer" >（开源软件，站长用的这个，一晚上下好）</a>
                 </li>
-                <li>BitComet</li>
+                <li>BitComet（闭源有广告）</li>
               </ul>
             </Space>
           </Typography.Paragraph>

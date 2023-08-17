@@ -2,6 +2,9 @@ import { ReactNode } from "react"
 
 const Log: { time: string, content: ReactNode }[] = [
     {
+        time: "2023.8.17", content: "更新部分文案描述，修复了缓存导致页面不更新的问题。"
+    },
+    {
         time: "2023.8.16", content: "增加“已知漏洞”分栏，增加Mod教程序章。"
     },
     {

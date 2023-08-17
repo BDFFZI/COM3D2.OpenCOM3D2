@@ -2,14 +2,24 @@
 <html lang="zh">
 
 <head>
-  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
-  <meta http-equiv="Pragma" content="no-cache">
-  <meta http-equiv="Expires" content="0">
+  <script>
+    var storedTimestamp = localStorage.getItem("timestamp");//上一次的时间戳
+    var timestamp = new Date().getTime(); // 获取当前时间戳
+
+    if (storedTimestamp === null || timestamp - storedTimestamp > 10000) {
+      // 构建新的URL
+      var newUrl = "./?timestamp=" + timestamp + "/#/";
+      // 重定向到新的URL
+      window.location.href = newUrl;
+      localStorage.setItem("timestamp", timestamp);
+    }
+  </script>
+
   <meta charset="utf-8" />
-  <title>COM3D2资源分享站</title>
-  <link rel="icon" href="./images/icon.png" />
   <meta name="author" content="BDFFZI">
   <meta name="description" content="这是一个关于《定制女仆3D》（简称：COM3D2）游戏的信息资源整合网站，包括本体+DLC+插件+Mod的相关资源和教程。">
+  <title>COM3D2资源分享站</title>
+  <link rel="icon" href="./images/icon.png" />
 </head>
 
 <img href="./images/welcome.jpg" />
@@ -19,3 +29,6 @@
 </body>
 
 </html>
+
+<!DOCTYPE html>
+<html>

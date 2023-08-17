@@ -1,4 +1,5 @@
 import { Alert, Button, Card, List, Space, Typography } from 'antd'
+import Links from '../../Data/Links';
 
 {/* <Typography.Paragraph>
 如果你想完全白嫖，实际上以上几种方式都不靠谱，首先COM3D2的Mod制作门槛较高，大部分创作者都不愿意分享自己的Mod，因为做Mod对他们来说是一份用于赚钱的工作而非业余爱好，而且国内也游戏环境相当封闭。
@@ -57,7 +58,10 @@ const MenuItem = {
 
             <Typography.Title level={2}>本站的Mod分享</Typography.Title>
             <Space direction="vertical">
-                <Alert type="warning" showIcon message="后续应该会转移到3DM论坛投稿，那里有完善的投稿机制，没必要放在这里了。"></Alert>
+                <Alert type="warning" showIcon message={<div>
+                    后续应该会转移到<Typography.Link href={Links.get("COM3D2Mod分享_3DM")} target="_blank">3DMMod站</Typography.Link>投稿，那里有完善的投稿机制，没必要放在这里了。（如果那里有活人审核的话）
+                </div>}
+                ></Alert>
                 <Alert
                     message="关于本站的Mod的收集策略："
                     description={
