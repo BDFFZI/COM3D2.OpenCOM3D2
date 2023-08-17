@@ -15,8 +15,8 @@ const MenuItem = {
             但经过一段时间的运营后我发现，这些对我来说是天堂般的政策，对很多人来说却是一场灾难，大部分人根本不需要也不会考虑这些，提供额外的选项反而会使人们踌躇不定。
         </Typography.Paragraph>
         <Alert showIcon type="warning"
-            message="所以如果你是个纯小白，本站不一定适合你！"
-            description="虽然我也有做新手向的入门视频，但我没有精力去一一解答所有问题，这里只是一个导航站，大部分都需要靠你自己。"
+            message="所以如果你是个纯小白，请严格按照下方视频的流程安装。"
+            description="这里只是一个导航站，我没有精力去一一解答所有问题，大部分都需要靠你自己，所以除非你知道自己在干什么，不然请按下方视频操作。"
         />
         <Typography.Title>开始入门</Typography.Title>
         <Typography.Paragraph>

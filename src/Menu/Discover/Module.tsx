@@ -57,6 +57,7 @@ const MenuItem = {
 
             <Typography.Title level={2}>本站的Mod分享</Typography.Title>
             <Space direction="vertical">
+                <Alert type="warning" showIcon message="后续应该会转移到3DM论坛投稿，那里有完善的投稿机制，没必要放在这里了。"></Alert>
                 <Alert
                     message="关于本站的Mod的收集策略："
                     description={
@@ -64,11 +65,9 @@ const MenuItem = {
                             如今看来大部分人都是不缺Mod，而且搜集大量Mod也不是很难（原因见上方“从哪能找到Mod？”），所以走量不是本站的目标。
                             <br />目前网上流传的大部分Mod都是直接爬虫爬取的，缺乏整理和有效性验证，另外对于一些特定角色的Mod也会很难找。
                             <br />所以我后面的目标以收集套装为主，尽可能集齐系列作品，制作一些需求大但无公开版的Mod，当然主要还是自用，看个人癖好了。
-                            <br />另外，如果你也有些散装Mod愿意分享，欢迎联系我投稿╰(￣ω￣ｏ)
                         </div>
                     }
                 />
-                <Alert type="success" message="站长目前的收集癖好：无（因为正在赶制Mod制作教程）"></Alert>
                 <Typography.Paragraph>
 
                     考虑工作量资金等因素，目前资源都直接放在了蓝奏云上存储和展示，当然我也在自己电脑上留了备份。
