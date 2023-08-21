@@ -1,4 +1,4 @@
-import { Alert, Button, Card, List, Space } from "antd";
+import { Alert, Button, Card, Divider, List, Space } from "antd";
 import React from "react";
 import { ButtonLink } from "../../Data/Components";
 
@@ -112,6 +112,15 @@ const MenuItem = {
 
 
         return <div>
+            <Card
+                title="V3版（旧版，无需CMI）"
+                extra={<ButtonLink href="https://wwzc.lanzouj.com/ic9Pp12sicjg" >下载</ButtonLink>}
+                style={{ width: 600 }}
+            >
+                这是为那些无法使用BepInEx加载器（CMI）的人预留的一个旧版补丁包，基于Sybaris插件加载器，自带汉化和解码插件，其他插件需要自行去Github搜索安装。
+                <ButtonLink type="link" href="https://www.bilibili.com/video/BV1Jm4y1Y7cr" block>视频教程</ButtonLink>
+            </Card>
+            <Divider></Divider>
             <Alert showIcon
                 type="error"
                 description="使用汉化插件时请务必确保安装CMI时去掉了所有自带的翻译插件，否则会引起冲突！"

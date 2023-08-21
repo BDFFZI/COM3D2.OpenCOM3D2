@@ -59,7 +59,7 @@ const MenuItem = {
             <Typography.Title level={2}>本站的Mod分享</Typography.Title>
             <Space direction="vertical">
                 <Alert type="warning" showIcon message={<div>
-                    后续应该会转移到<Typography.Link href={Links.get("COM3D2Mod分享_3DM")} target="_blank">3DMMod站</Typography.Link>投稿，那里有完善的投稿机制，没必要放在这里了。（如果那里有活人审核的话）
+                    后续会转移到<Typography.Link href={Links.get("COM3D2Mod分享_3DM")} target="_blank">3DMMod站</Typography.Link>投稿，那里有完善的投稿机制，没必要放在这里了，也建议各位能去多多投稿，建设环境了。
                 </div>}
                 ></Alert>
                 <Alert

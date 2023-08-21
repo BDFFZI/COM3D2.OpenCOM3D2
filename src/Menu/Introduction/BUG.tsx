@@ -1,4 +1,5 @@
 import { Alert, Divider, List, Typography } from "antd";
+import { Content } from "antd/es/layout/layout";
 import { ReactNode } from "react";
 
 const bug: { title: string, content: ReactNode }[] = [
@@ -22,10 +23,19 @@ const bug: { title: string, content: ReactNode }[] = [
         title: "小黑窗报错 System.Exception: INTERNAL configuration error: failed to get configuration 'system.diagnostics'",
         content:
             <div>
-                原因和影响都不明，但确实有少些人遇到了该问题，有人说这是BepInEx插件加载器的问题，如果是真的那你可以研究另外一款叫Sybaris的插件加载器。
-                <br></br>可以参考这个翻译插件的安装手册，里面也有下载地址，https://github.com/ghorsington/CM3D2.YATranslator/wiki/Installation。
-                <br></br>其实大部分插件都是原属于Sybaris的，所以使用这个老式插件加载器也不会太影响体验，但具体能走到哪一步就要看个人动手能力了。
+                有不少人会遇到了该问题，原因不明。该现象会导致BepInEx插件加载器（CMI）无法使用，如果遇到这种情况那你可以研究另外一款叫Sybaris的插件加载器。
+                <br></br><strong>我在汉化插件分栏预留了一份基于Sybaris的汉化解码整合包，可以借此满足基本的游戏需求</strong>，其他插件就需要自行安装了。提示：CMI只是一个整合包，里面大部分插件Sybaris也是可以使用的。
+                <br></br>有关自行获取Sybaris加载器，可以参考这个翻译插件的<a href="https://github.com/ghorsington/CM3D2.YATranslator/wiki/Installation" target="_blank" rel="noreferrer">安装手册</a>，里面有下载地址。
+
             </div>
+    },
+    {
+        title: "弹窗报错 Oops! The game crashed|ERROR: SymGetSymFromAddr64, GetLastError: '试图访问无效的地址。",
+        content: <div>
+            游戏崩溃的原因有很多，这里是一个因为内存溢出导致的崩溃，解决方法可见<a href="https://tieba.baidu.com/p/5227459178?red_tag=0523197425#109472525103l" target="_blank" rel="noreferrer" >原帖</a>。
+            <br></br>总结起来就是要去注册表修改内存分配大小，如将“计算机\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\SubSystems”中“Windows”里的SharedSection参数值改为1024,20480,1024。
+            <br></br>根据实验效果来看，似乎主要和第三个数字有关，如果装了更多的插件后崩溃，可以尝试再提高该值。
+        </div>
     },
 ]
 

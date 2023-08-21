@@ -2,6 +2,9 @@ import { ReactNode } from "react"
 
 const Log: { time: string, content: ReactNode }[] = [
     {
+        time: "2023.8.21", content: "感谢网友分享，多了两种已知漏洞以及解决方案。另外3DMMod站投稿功能确认功能可用，这下就有公共的Mod分享平台了，欧耶！"
+    },
+    {
         time: "2023.8.17", content: "更新部分文案描述，修复了缓存导致页面不更新的问题。"
     },
     {
