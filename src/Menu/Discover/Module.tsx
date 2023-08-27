@@ -36,9 +36,9 @@ const MenuItem = {
             },
             {
                 href: "https://cryptpad.fr/pad/#/2/pad/view/Y-r2fKD-7iiuTjH+vQ2c1SqoWrHU443yGRiDNHDObMw/",
-                text: "外网的Mod整合包",
+                text: "外网的Mod整合包（23G）",
                 content: <div>
-                    该Mod整合包经原作者人工审核，质量高，无重复缺漏文件，但使用前一定要阅读使用手册。
+                    该Mod整合包经原作者人工审核，无重复缺漏文件，但需要满足前置条件，使用前一定要阅读使用手册。
                     <ul>
                         <li>
                             前置要求：
@@ -55,6 +55,11 @@ const MenuItem = {
                             <Typography.Link href='magnet:?xt=urn:btih:5dc52af16520f6032b25972b10ef96f782654cd4' target="_blank">
                                 magnet:?xt=urn:btih:5dc52af16520f6032b25972b10ef96f782654cd4
                             </Typography.Link>
+                        </li>
+                        <li>
+                            使用体验：
+                            <br />
+                            作者确实用心整理了，但有个外网Mod的一个通病。似乎因版权问题，他们那基本都是自建模而不是移植，结果就是吃力不讨好，模型质量比较糟糕。我建议仍然还是自己找Mod比较好，这样Mod的画质大小都能得以控制。
                         </li>
                     </ul>
                     <br />

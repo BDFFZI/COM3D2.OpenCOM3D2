@@ -1,10 +1,11 @@
-import { Space, Typography } from "antd";
+import { Alert, Space, Typography } from "antd";
 
 
 const MenuItem = {
     label: "Mod制作",
     key: "/Research/MakeMod",
     page: () => <Typography.Paragraph>
+        <Alert type="warning" showIcon message="建议请配合后续的视频教程浏览文档，不要强行硬看，因为文档可能会有意写的复杂化。"></Alert>
         <Typography.Title level={2}>1. 序章</Typography.Title>
         <blockquote>前置要求，教程简介，必读！！！</blockquote>
         <Typography.Link href="https://www.cnblogs.com/BDFFZI/p/17621153.html" target="_blank">【COM3D2Mod教程】序章：教程简介</Typography.Link>
