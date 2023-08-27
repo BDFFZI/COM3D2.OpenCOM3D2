@@ -1,4 +1,4 @@
-import { Typography } from "antd";
+import { Space, Typography } from "antd";
 
 
 const MenuItem = {
@@ -10,7 +10,11 @@ const MenuItem = {
         <Typography.Link href="https://www.cnblogs.com/BDFFZI/p/17621153.html" target="_blank">【COM3D2Mod教程】序章：教程简介</Typography.Link>
         <Typography.Title level={2}>2. 入门</Typography.Title>
         <blockquote>搞定动漫角色最重要的特征点，让别人看了能直呼老婆！</blockquote>
-        制作中......
+        <Space direction="vertical">
+            <Typography.Link href="https://www.cnblogs.com/BDFFZI/p/17647617.html" target="_blank">【COM3D2Mod教程】第一章：Mod原理</Typography.Link>
+            <Typography.Link href="https://www.cnblogs.com/BDFFZI/p/17660468.html" target="_blank">【COM3D2Mod教程】第二章：Mod制作</Typography.Link>
+            制作中......
+        </Space>
         <Typography.Title level={2}>3. 进阶</Typography.Title>
         <blockquote>让老婆能穿上自己的原设衣装，让别人看了能直呼大佬！</blockquote>
         制作中......

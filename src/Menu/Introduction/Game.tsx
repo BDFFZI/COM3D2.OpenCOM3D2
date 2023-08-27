@@ -35,9 +35,9 @@ const MenuItem = {
       <Descriptions.Item label="个人点评">
         <br />1. 游戏生命力强，发展潜力大，因为目前和未来的一段时间都会持续更新，且插件Mod都能向后兼容。
         <br />2. 相比隔壁恋活剧情更丰满玩法更多点，不容易腻。
-        <br />3. 捏人系统似乎没恋活强，做Mod门槛很高，Mod质量不稳定，玩家数和Mod数都是恋活的1/10。
-        <br />3. 其在国内的游戏环境很糟糕，倒狗横行，社区封闭，资源难找。
-        <br />4. 似乎是Kiss公司目前的命根子，因为我观察发现他们似乎同时只能开发一款游戏。
+        <br />3. 做Mod门槛很高，Mod质量不稳定，相比之下Mod数只有恋活的几十分之一甚至没有。
+        <br />4. 其在国内的游戏环境很糟糕，倒狗横行，社区封闭，资源难找。
+        <br />5. 似乎是Kiss公司目前的命根子，因为我观察发现他们似乎同时只能开发一款游戏。
       </Descriptions.Item>
     </Descriptions>
 
@@ -63,7 +63,7 @@ const MenuItem = {
                   >
                     <Button type="primary">COM3D2 2.28 全DLC整合版（强烈推荐）</Button>
                   </Popconfirm>
-                  <Button disabled>随时间推移，整合包中的DLC一定会有缺漏，如果有强烈需求，那你可以自己去左侧相关链接的栏目中尝试更新资源</Button>
+                  <Button disabled>其他请查看“发现-相关链接”栏目</Button>
                 </Space>
               </div>
               <Alert
@@ -71,7 +71,12 @@ const MenuItem = {
                 type="error"
                 message="现在我只推荐你下载COM3D2 2.28，因为已知一些新版本存在插件兼容问题，除非你知道自己在做什么，不然请下载COM3D2 2.28！"
               />
-              <Alert showIcon type="warning" message="目前推荐的汉化插件是针对游戏COM3D2 2.28版本的，其他版本会略有问题！" />
+              <Alert type="warning" message="注意" description={
+                <ul>
+                  <li>目前推荐的汉化插件是针对游戏COM3D2 2.28版本的，其他版本会略有问题！</li>
+                  <li>随时间推移，整合包中的DLC一定会有缺漏（可使用DLC检测工具检查），若有需要请自行通过“相关链接”栏目更新。</li>
+                </ul>
+              } />
               <Alert type="success" message="提示" description={
                 <ul >
                   <li>要尽可能下载全DLC版，单独装容易缺文件，而且很多Mod会用到里面的功能。</li>
@@ -91,7 +96,7 @@ const MenuItem = {
               <ul>
                 国内下载器（限速，有敏感文件问题）：
                 <li>百度网盘（因大小受限没用过）</li>
-                <li>迅雷（容易卡99%，小白推荐）</li>
+                <li>迅雷（容易卡99%，但小白推荐）</li>
                 国外下载器（不限速但要倒弄，受网络环境影响）
                 <li>
                   qBittorrent
@@ -113,6 +118,14 @@ const MenuItem = {
         </li>
       </ol >
     </Typography.Paragraph >
+
+    <Typography.Title level={2}>安装单独的DLC？</Typography.Title>
+    <Typography.Paragraph>
+      如果你会配置当然可以选择下载纯净版游戏然后单独下载DLC进行安装，这能极大的减少游戏体积。
+      <br />DLC单独安装也很简单，因为自带官方的安装程序，所以你只管运行安装就行。
+      <br />如果你下载DLC后，得到的是一个光盘图标的文件，不要怕，点进去也是一样的。
+    </Typography.Paragraph>
+
     <Divider></Divider>
     <Alert showIcon type="warning" message={
       <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between" }}>

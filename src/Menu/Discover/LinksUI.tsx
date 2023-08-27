@@ -33,12 +33,13 @@ const MenuItem = {
             </Descriptions.Item>
             <Descriptions.Item label="社区">
                 <ul>
-                    <Link name="COM3D2社区_Discord"></Link>
+                    <Link name="COM3D2社区_Discord" description="强烈推荐，同时这也是CMI推荐的论坛"></Link>
+                    <Link name="COM3D2社区_百度贴吧" description="COM3D2吧被封了，但CM3D2吧还在"></Link>
                     <Link name="COM3D2社区_Reddit"></Link>
                 </ul>
                 <Alert type="success" showIcon message="社区的功能往往是复合的，所以这里面也可以找到插件Mod攻略等资源的分享！"></Alert>
             </Descriptions.Item>
-            <Descriptions.Item label="找游戏(包括DLC)">
+            <Descriptions.Item label="找游戏和DLC">
                 <ul>
                     <Link name="GGBases" />
                     <Link name="Sukebei" />
@@ -47,13 +48,14 @@ const MenuItem = {
                     <Link name="COM3D2.5纯本体下载" />
                 </ul>
             </Descriptions.Item>
-            <Descriptions.Item label="找插件">
+            <Descriptions.Item label="找插件和工具">
                 <ul>
-                    <Link name="COM3D2插件安装器" />
+                    <Link name="COM3D2插件整合包" />
+                    <Link name="COM3D2工具插件收集" />
                 </ul>
             </Descriptions.Item>
             <Descriptions.Item label={<div>
-                找Mod
+                找散装Mod
             </div>}>
                 <ul>
                     <Link name="COM3D2Mod搜索_Mukuu" />

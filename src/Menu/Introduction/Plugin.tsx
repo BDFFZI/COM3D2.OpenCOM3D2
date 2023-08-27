@@ -23,7 +23,7 @@ const MenuItem = {
                 </div>
                 <Card title="CMI 下载地址">
                     <Space>
-                        <ButtonLink href={Links.get("COM3D2插件安装器_下载")}>官方地址</ButtonLink>
+                        <ButtonLink href={Links.get("COM3D2插件整合包_下载")}>官方地址</ButtonLink>
                         <ButtonLink href="https://mod.3dmgame.com/mod/186198">3DM下载（略旧）</ButtonLink>
                         <Button disabled>实在下不了也可以进群自取</Button>
                     </Space>

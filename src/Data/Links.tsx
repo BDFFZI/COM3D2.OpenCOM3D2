@@ -12,6 +12,7 @@ export type LinkKey =
     | "COM3D2Wiki"
     | "COM3D2萌娘百科"
     | "COM3D2社区_Discord"
+    | "COM3D2社区_百度贴吧"
     | "COM3D2社区_Reddit"
     | "GGBases"
     | "Sukebei"
@@ -19,8 +20,9 @@ export type LinkKey =
     | "AnimeSharing"
     | "qBittorrent"
     | "COM3D2.5纯本体下载"
-    | "COM3D2插件安装器"
-    | "COM3D2插件安装器_下载"
+    | "COM3D2插件整合包"
+    | "COM3D2插件整合包_下载"
+    | "COM3D2工具插件收集"
     | "COM3D2Mod搜索_Mukuu"
     | "COM3D2Mod分享_3DM"
     | "COM3D2Mod分享_Motimoti3d"
@@ -39,6 +41,7 @@ Links.set("COM3D2SeesaaWiki_Mod制作", "https://seesaawiki.jp/com3d2mod_wiki/d/
 Links.set("COM3D2Wiki", "https://wiki.anime-sharing.com/hgames/index.php?title=Custom_Order_Maid_3D2")
 Links.set("COM3D2萌娘百科", "https://mzh.moegirl.org.cn/3D%E5%AE%A2%E5%88%B6%E5%A5%B3%E4%BB%862")
 Links.set("COM3D2社区_Discord", "https://discord.com/channels/297072643797155840/297072643797155840")
+Links.set("COM3D2社区_百度贴吧", "https://jump2.bdimg.com/f?kw=cm3d")
 Links.set("COM3D2社区_Reddit", "https://www.reddit.com/r/com3d2/")
 Links.set("GGBases", "https://ggbases.dlgal.com/");
 Links.set("Sukebei", "https://sukebei.nyaa.si/");
@@ -46,8 +49,9 @@ Links.set("R18Manga", "https://r18manga.com/18h-game/");
 Links.set("AnimeSharing", "https://www.anime-sharing.com/");
 Links.set("qBittorrent", "https://github.com/c0re100/qBittorrent-Enhanced-Edition/releases");
 Links.set("COM3D2.5纯本体下载", "https://www.bilibili.com/read/cv21018824/");
-Links.set("COM3D2插件安装器", "https://krypto5863.github.io/COM-Modular-Installer/");
-Links.set("COM3D2插件安装器_下载", "https://krypto5863.github.io/COM-Modular-Installer/download.html");
+Links.set("COM3D2插件整合包", "https://krypto5863.github.io/COM-Modular-Installer/");
+Links.set("COM3D2插件整合包_下载", "https://krypto5863.github.io/COM-Modular-Installer/download.html");
+Links.set("COM3D2工具插件收集", "https://motimoti3d.jp/blog-entry-590.html");
 Links.set("COM3D2Mod搜索_Mukuu", "https://mukuu.herokuapp.com/")
 Links.set("COM3D2Mod分享_3DM", "https://mod.3dmgame.com/COM3D2")
 Links.set("COM3D2Mod分享_Motimoti3d", "https://motimoti3d.jp/")

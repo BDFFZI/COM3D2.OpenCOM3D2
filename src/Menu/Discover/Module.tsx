@@ -22,8 +22,8 @@ const MenuItem = {
     page: () => {
         const texts1 = [
             {
-                href: "https://wwzc.lanzouj.com/b04k6tasd",
-                text: "已验证Mod",
+                href: "https://mod.3dmgame.com/u/8101706/Home",
+                text: "个人Mod收集分享",
                 content: <div>
                     <ul>
                         <li>有预览图</li>
@@ -35,33 +35,43 @@ const MenuItem = {
                 </div>
             },
             {
-                href: "https://wwzc.lanzouj.com/b04k6tawh",
-                text: "未验证Mod",
+                href: "https://cryptpad.fr/pad/#/2/pad/view/Y-r2fKD-7iiuTjH+vQ2c1SqoWrHU443yGRiDNHDObMw/",
+                text: "外网的Mod整合包",
                 content: <div>
-                    大量暂时无法验证可用性的Mod，和市面常见的整合包性质相同。
+                    该Mod整合包经原作者人工审核，质量高，无重复缺漏文件，但使用前一定要阅读使用手册。
+                    <ul>
+                        <li>
+                            前置要求：
+                            <br />
+                            这个整合包必须配合年度终极版游戏使用（不是我推荐的2.28版本），这个版本DLC最全每年更新且支持CM3D2和COM3D2联动，这是外网的主流版本，你可以在“相关链接”的种子网站中搜索到。
+                            <br />
+                            如果不使用这个版本也可以，但会导致部分Mod缺失文件。
+                        </li>
+                        <li>
+                            下载链接：
+                            <br />
+                            我这里提供一个磁链以解决部分人无法上外网的情况（或者GGBase种子网站是可以国内直连的），但若想获取最新版本的Mod整合包，请一定要用文档里的链接。
+                            <br />
+                            <Typography.Link href='magnet:?xt=urn:btih:5dc52af16520f6032b25972b10ef96f782654cd4' target="_blank">
+                                magnet:?xt=urn:btih:5dc52af16520f6032b25972b10ef96f782654cd4
+                            </Typography.Link>
+                        </li>
+                    </ul>
                     <br />
-                    目前本站大部分未验证mod都来源于目前一个不愿透露姓名的QQ群。
                 </div>
             },
         ]
 
-        return <div>
+        return <Typography.Paragraph>
             <Typography.Title level={2}>从哪能找到Mod？</Typography.Title>
-            <Typography.Paragraph>
-                <ol>
-                    <li>直接查看左侧同组的“相关链接”栏目，源头链接都已经放在里面了。</li>
-                    <li>部分论坛支持搜索功能，我最早就是在那找到Mod的，大部分链接会将你导向推特。</li>
-                    <li>另外你也可以尝试加入一些QQ群，因为我发现手里揣着Mod整合包的人还蛮多的，而且都是上百G的数量，如果你不想自己去源头收集，可以找他们。</li>
-                    <li>特定角色的Mod确实很难找，但不代表不存在，你想要的Mod基本都有，但他们基本都是内部且商业性质的，你需要人脉和资金才行，这游戏的水比你想象的要深的多。</li>
-                </ol>
-            </Typography.Paragraph>
-
+            <ol>
+                <li>直接查看左侧同组的“相关链接”栏目，源头链接都已经放在里面了。</li>
+                <li>部分论坛支持搜索功能，我最早就是在那找到Mod的，大部分链接会将你导向推特。</li>
+                <li>另外你也可以尝试加入一些QQ群，因为我发现手里揣着Mod整合包的人还蛮多的，而且都是上百G的数量，如果你不想自己去源头收集，可以找他们。</li>
+                <li>特定角色的Mod确实很难找，但不代表不存在，你想要的Mod基本都有，但他们基本都是内部且商业性质的，你需要人脉和资金才行，这游戏的水比你想象的要深的多。</li>
+            </ol>
             <Typography.Title level={2}>本站的Mod分享</Typography.Title>
             <Space direction="vertical">
-                <Alert type="warning" showIcon message={<div>
-                    后续会转移到<Typography.Link href={Links.get("COM3D2Mod分享_3DM")} target="_blank">3DMMod站</Typography.Link>投稿，那里有完善的投稿机制，没必要放在这里了，也建议各位能去多多投稿，建设环境了。
-                </div>}
-                ></Alert>
                 <Alert
                     message="关于本站的Mod的收集策略："
                     description={
@@ -72,12 +82,10 @@ const MenuItem = {
                         </div>
                     }
                 />
-                <Typography.Paragraph>
-
-                    考虑工作量资金等因素，目前资源都直接放在了蓝奏云上存储和展示，当然我也在自己电脑上留了备份。
-                    <br />
-                    仓库入口已放在下方，Mod会不定时更新，更新信息会放在首页展示。
-                </Typography.Paragraph>
+                <Alert type="success" showIcon message={<div>
+                    已经转移到<Typography.Link href={Links.get("COM3D2Mod分享_3DM")} target="_blank">3DMMod站</Typography.Link>投稿，那里有完善的投稿机制，没必要放在单独的云盘了，也建议各位能去多多投稿，建设环境了。
+                </div>}
+                ></Alert>
             </Space>
             <List
                 dataSource={texts1}
@@ -98,17 +106,7 @@ const MenuItem = {
                 }
             >
             </List>
-
-            <Typography.Title level={2}>版权问题（Copyright problem）</Typography.Title>
-            <Typography.Paragraph>
-                Mod来源于网络收集和网络投稿，由于数据量过大或原始文件异常等原因，无法挨个审核标记内容，所以部分Mod可能会出现版权问题。
-                <br />接着由于网络，文件大小，捆绑等各种因素，导致最终选择了再上传的方式以便资源分享。
-                <br />如果你是原作者，而以上内容对您的权益造成了损害，请联系我，我将尽快下架。
-                <br />Mod from the network collection and network contributions, due to the amount of data is too large or abnormal original files and other reasons, can not be reviewed one by one marked content, so some Mod may have copyright problems.
-                <br /> Then due to the network, file size, bundling and other factors, resulting in the final choice of upload for resource sharing.
-                <br /> If you are the original author and the above content has caused damage to your rights and interests, please contact me and I will remove it as soon as possible.
-            </Typography.Paragraph>
-        </div >
+        </Typography.Paragraph>
     }
 }
 

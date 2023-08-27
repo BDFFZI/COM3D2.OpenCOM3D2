@@ -2,6 +2,9 @@ import { ReactNode } from "react"
 
 const Log: { time: string, content: ReactNode }[] = [
     {
+        time: "2023.8.27", content: "Mod分享栏目调整，发现国外一款高质量Mod整合包。Mod制作教程新增两章。"
+    },
+    {
         time: "2023.8.21", content: "感谢网友分享，多了两种已知漏洞以及解决方案。另外3DMMod站投稿功能确认功能可用，这下就有公共的Mod分享平台了，欧耶！"
     },
     {
