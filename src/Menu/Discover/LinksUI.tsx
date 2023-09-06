@@ -27,6 +27,7 @@ const MenuItem = {
                 <ul>
                     <Link name="COM3D2SeesaaWiki"></Link>
                     <Link name="COM3D2SeesaaWiki_Mod制作"></Link>
+                    <Link name="COM3D2SeesaaWiki_Mod文件解析"></Link>
                     <Link name="COM3D2Wiki"></Link>
                     <Link name="COM3D2萌娘百科"></Link>
                 </ul>

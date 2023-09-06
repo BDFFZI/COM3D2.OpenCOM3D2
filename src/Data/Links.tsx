@@ -9,6 +9,7 @@ export type LinkKey =
     | "COM3D2性格包Preset文件"
     | "COM3D2SeesaaWiki"
     | "COM3D2SeesaaWiki_Mod制作"
+    | "COM3D2SeesaaWiki_Mod文件解析"
     | "COM3D2Wiki"
     | "COM3D2萌娘百科"
     | "COM3D2社区_Discord"
@@ -38,6 +39,7 @@ Links.set("COM3D2性格包一览", "https://com3d2.jp/#prod03");
 Links.set("COM3D2性格包Preset文件", "https://wwzc.lanzouj.com/ixYBP12k297c");
 Links.set("COM3D2SeesaaWiki", "https://com3d2.game-info.wiki/")
 Links.set("COM3D2SeesaaWiki_Mod制作", "https://seesaawiki.jp/com3d2mod_wiki/d/%bb%c8%cd%d1%a5%c4%a1%bc%a5%eb")
+Links.set("COM3D2SeesaaWiki_Mod文件解析", "https://seesaawiki.jp/chs_cm3d2/")
 Links.set("COM3D2Wiki", "https://wiki.anime-sharing.com/hgames/index.php?title=Custom_Order_Maid_3D2")
 Links.set("COM3D2萌娘百科", "https://mzh.moegirl.org.cn/3D%E5%AE%A2%E5%88%B6%E5%A5%B3%E4%BB%862")
 Links.set("COM3D2社区_Discord", "https://discord.com/channels/297072643797155840/297072643797155840")

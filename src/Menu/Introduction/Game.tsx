@@ -61,7 +61,7 @@ const MenuItem = {
                       </Typography.Paragraph>
                     }
                   >
-                    <Button type="primary">COM3D2 2.28 全DLC整合版（强烈推荐）</Button>
+                    <Button type="primary">COM3D2 2.28 全DLC整合版（小白推荐）</Button>
                   </Popconfirm>
                   <Button disabled>其他请查看“发现-相关链接”栏目</Button>
                 </Space>
@@ -77,14 +77,24 @@ const MenuItem = {
                   <li>随时间推移，整合包中的DLC一定会有缺漏（可使用DLC检测工具检查），若有需要请自行通过“相关链接”栏目更新。</li>
                 </ul>
               } />
-              <Alert type="success" message="提示" description={
-                <ul >
-                  <li>要尽可能下载全DLC版，单独装容易缺文件，而且很多Mod会用到里面的功能。</li>
-                  <li>国内是COM3D2主流，国外是COM3D2.5，COM3D2的东西在COM3D2.5也能用，但反之不行。</li>
-                  <li>COM3D2.5和COM3D2的区别主要是画质，2.5的模型更精细一点，皮肤纹理更丰富，比如能清晰的看到锁骨痕迹。</li>
-                  <li>下载人数越多的资源下载越快，再加上国情原因，实际跟着老外下速度会更快点。</li>
-                  <li>部分插件可能不兼容新版本，目前国内主流是COM3D2 2.28所以这个版本的兼容性最好。</li>
-                </ul>
+              <Alert type="info" message="你想选择自行下载？" description={
+                <div>
+                  <Typography.Paragraph>
+                    上文推荐本体对<Typography.Text type="danger">会折腾的人</Typography.Text>来说确实并非最优版本，目前最推荐的是老外主流的年度版，这个是每年都会推新，包含CM3D2和COM3D2两款游戏（用于联动功能），真正的最全最新，是国外下载量最高的游戏本体。
+                    <br></br>
+                    由于几乎所有文件都来源于国外分享，选择和老外的路线一致，兼容性是最好的，也因此和后续“Mod分享”专栏中提到的优质Mod整合包完美兼容。
+                    <br></br>
+                    但注意少许插件包括汉化和这个版本并不完全兼容，实际上国内用到翻译插件在国外早就过时淘汰了，下一章装插件时你就会发现CMI中自带的翻译插件和我们的汉化插件并不一样。
+                  </Typography.Paragraph>
+                  <ul >
+                    下载其他版本时的提示：
+                    <li>要尽可能下载全DLC版，单独装容易缺文件，而且很多Mod会用到里面的功能。</li>
+                    <li>国内是COM3D2主流，国外是COM3D2.5，COM3D2的东西在COM3D2.5也能用，但反之不行。</li>
+                    <li>COM3D2.5和COM3D2的区别主要是画质，2.5的模型更精细一点，皮肤纹理更丰富，比如能清晰的看到锁骨痕迹。</li>
+                    <li>下载人数越多的资源下载越快，再加上国情原因，<Typography.Text delete>实际跟着老外下速度会更快点</Typography.Text>（具体还得看网络环境，比如电信上外网普遍慢）。</li>
+                    <li>部分插件可能不兼容新版本，目前国内主流是COM3D2 2.28所以这个版本的兼容性最好。</li>
+                  </ul>
+                </div>
               } />
             </Space>
           </Typography.Paragraph>
@@ -95,8 +105,8 @@ const MenuItem = {
               获取到游戏的种子或磁链后，使用p2p下载软件进行下载（新建离线任务），比如：
               <ul>
                 国内下载器（限速，有敏感文件问题）：
-                <li>百度网盘（因大小受限没用过）</li>
-                <li>迅雷（容易卡99%，但小白推荐）</li>
+                <li>百度网盘（有大小限制问题，资源似乎已被封杀）</li>
+                <li>迅雷（会卡99%，但小白推荐）</li>
                 国外下载器（不限速但要倒弄，受网络环境影响）
                 <li>
                   qBittorrent
@@ -105,6 +115,12 @@ const MenuItem = {
                 <li>BitComet（闭源有广告）</li>
               </ul>
             </Space>
+            <Alert type="success" message="提示" description={
+              <ul>
+                <li>种子下载是可以跨软件续下的，如果一个下载器出了问题，不要删除文件。换成另一个下载器新建下载时，只要将保存路径设置的一样就可以继续下载。</li>
+                <li>如果部分文件缺失或损坏，利用上述方法，还可以让种子下载器自动检测并修复错误的文件，如果下载器确实没报下载问题，那你可以考虑问题是否出在其他地方了。</li>
+              </ul>
+            } />
           </Typography.Paragraph>
         </li>
         <li>

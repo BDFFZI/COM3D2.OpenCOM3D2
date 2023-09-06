@@ -14,7 +14,6 @@ const MenuItem = {
                     <div><Typography.Text keyboard>标记源头</Typography.Text>：所有东西尽可能标记来源，并以源头链接为准，非必要不做中间商行为。</div>
                     <div><Typography.Text keyboard>没有捆绑</Typography.Text>：提供的资源尽可能原子化，不绑定下载软件，密码，多余文件等，简单干净不臃肿。</div>
                     <div><Typography.Text keyboard>无信息差</Typography.Text>：分享教程或整合资源应与编写论文相同，要尽可能记录出处，使其有迹可循，以便举一反三。</div>
-                    <div><Typography.Text keyboard>遵守法律</Typography.Text>：本站不应出现色情暴力资源或侵权行为等，但数据量巨大不一定能完全审核，违规内容请联系站长，审核无误后将急速下架。</div>
                 </Space>
             }
         ]

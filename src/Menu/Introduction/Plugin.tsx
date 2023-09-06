@@ -46,7 +46,7 @@ const MenuItem = {
         <Typography.Paragraph>
             <Space direction='vertical'>
                 由于是老外的东西，所以CMI自带的翻译并不支持中文，但别怕，我准备好了，点击左侧的“发现-汉化插件”栏目即可获取汉化插件。
-                <Alert showIcon type="warning" message="推荐安装v3版本，因为目前只有这个是默认和CMI兼容的！"></Alert>
+                <Alert showIcon type="warning" message="推荐安装最新的v3版本，因为目前只有这个是默认和CMI兼容的！"></Alert>
             </Space>
         </Typography.Paragraph>
         <Divider></Divider>

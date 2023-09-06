@@ -20,13 +20,11 @@ const bug: { title: string, content: ReactNode }[] = [
         content: "已确定是汉化文件的问题，只要移除相关汉化文件就可解决。"
     },
     {
-        title: "小黑窗报错 System.Exception: INTERNAL configuration error: failed to get configuration 'system.diagnostics'",
+        title: "插件全部失效，小黑窗报错 System.Exception: INTERNAL configuration error: failed to get configuration 'system.diagnostics'",
         content:
             <div>
                 有不少人会遇到了该问题，原因不明。该现象会导致BepInEx插件加载器（CMI）无法使用，如果遇到这种情况那你可以研究另外一款叫Sybaris的插件加载器。
-                <br></br><strong>我在汉化插件分栏预留了一份基于Sybaris的汉化解码整合包，可以借此满足基本的游戏需求</strong>，其他插件就需要自行安装了。提示：CMI只是一个整合包，里面大部分插件Sybaris也是可以使用的。
-                <br></br>有关自行获取Sybaris加载器，可以参考这个翻译插件的<a href="https://github.com/ghorsington/CM3D2.YATranslator/wiki/Installation" target="_blank" rel="noreferrer">安装手册</a>，里面有下载地址。
-
+                <br></br>我在汉化插件分栏预留了一份基于Sybaris的汉化解码整合包，可以借此满足基本的游戏需求，其他插件就需要自行安装了。提示：CMI只是一个整合包，里面大部分插件Sybaris也是可以使用的。
             </div>
     },
     {

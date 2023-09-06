@@ -12,13 +12,13 @@ function Page() {
 
 
         if (index >= Log.length - 2) {
-            GetMessageApi().error("肝不动了......");
+            GetMessageApi().error("肝不动了＞﹏＜");
             index = Log.length - 3;
             if (index < 0)
                 index = 0;
         }
         else if (index < 0) {
-            GetMessageApi().error("肝不动了......");
+            GetMessageApi().error("肝不动了＞﹏＜");
             index = 0;
         }
 
@@ -33,14 +33,14 @@ function Page() {
             backgroundPosition: "center left"
         }}>
             <Layout.Header style={{ display: "flex", alignItems: "center" }}>
-                <Typography.Paragraph type="danger" style={{ margin: "0" }}>本站仍在更新中，欢迎各位提供反馈意见＞﹏＜</Typography.Paragraph>
+                <Typography.Paragraph type="danger" style={{ margin: "0" }}>站长目前尚未退坑，网站仍在更新中，欢迎各位提供反馈意见</Typography.Paragraph>
             </Layout.Header>
 
             <Layout.Content style={{ padding: 24, minHeight: '750px', display: "flex", flexDirection: "column", justifyContent: "space-between" }}>
                 <div>
                     <Typography.Title>欢迎来到{<span>{SiteName}</span>}</Typography.Title>
                     <Typography.Paragraph>
-                        这是站长用于收集和分享COM3D2资源和教程的网站，也是为了解决直链更新的麻烦以及避免被恶意举报的办法。
+                        这是站长个人用于收集和分享COM3D2资源和教程的网站，也是为了解决直链更新的麻烦以及避免被恶意举报的办法。
                         <br />
                         网站没有社区功能，但你可以点击左侧“沟通-联系站长”。
                     </Typography.Paragraph>
@@ -61,7 +61,7 @@ function Page() {
 
                     </iframe> */}
                 </div>
-                <Card bordered={false} style={{ width: "500px", background: "rgba(0,0,0,0.2)" }}
+                <Card bordered={false} style={{ width: "700px", background: "rgba(0,0,0,0.2)" }}
                     title="更新日志"
                     extra={
                         <Space>
