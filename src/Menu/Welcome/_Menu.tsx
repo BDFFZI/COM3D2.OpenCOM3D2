@@ -33,7 +33,7 @@ function Page() {
             backgroundPosition: "center left"
         }}>
             <Layout.Header style={{ display: "flex", alignItems: "center" }}>
-                <Typography.Paragraph type="danger" style={{ margin: "0" }}>站长目前尚未退坑，网站仍在更新中，欢迎各位提供反馈意见</Typography.Paragraph>
+                <Typography.Paragraph type="danger" style={{ margin: "0" }}>站长目前尚未退坑，网站仍在更新中，欢迎各位提供反馈意见。</Typography.Paragraph>
             </Layout.Header>
 
             <Layout.Content style={{ padding: 24, minHeight: '750px', display: "flex", flexDirection: "column", justifyContent: "space-between" }}>
