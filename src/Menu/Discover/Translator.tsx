@@ -12,14 +12,20 @@ const MenuItem = {
                 extra: <Button disabled>已弃用</Button>,
                 content:
                     <div>
+                        原理：
                         <ul>
-                            <li>最早倒弄的汉化补丁，通过直接修改源代码的方式安装。</li>
-                            <li>配置麻烦，翻译方式野蛮，且视频教程已被审核锁定。</li>
+                            <li>最早倒弄的汉化补丁，基于实时机翻。</li>
+                            <li>通过直接修改NGUI或部分游戏源码实现翻译接入。</li>
+                            <li>利用GUI做用户交互实现选择翻译、回退、重翻等操作。</li>
                         </ul>
                         优点：
                         <ul>
                             <li>百分百解决文本汉化问题，不存在兼容性问题。</li>
                             <li>支持选择性翻译，文本翻译方便实用。</li>
+                        </ul>
+                        缺点：
+                        <ul>
+                            <li>配置麻烦，翻译方式粗暴，且视频教程已被审核锁定。</li>
                         </ul>
                     </div>
 
@@ -31,7 +37,7 @@ const MenuItem = {
                     <div>
                         原理：
                         <ul>
-                            <li>基于非原版<a href="https://github.com/BDFFZI/XUnity.AutoTranslator" target="_blank" rel="noreferrer">XUnity.AutoTranslator</a>翻译</li>
+                            <li>基于二创后的XUnity.AutoTranslator插件(<a href='https://github.com/BDFFZI/XUnity.AutoTranslator/releases/tag/v1.0.0' target="_blank" rel="noreferrer">BDFFZI.XUnity.AutoTranslator</a>)</li>
                         </ul>
                         优点：
                         <ul>
@@ -56,7 +62,7 @@ const MenuItem = {
                         <div>
                             原理：
                             <ul>
-                                <li>一款非原版的YATranslator插件(<a href='https://github.com/BDFFZI/CM3D2.YATranslator.git' target="_blank" rel="noreferrer">BDFFZI.YATranslator</a>)</li>
+                                <li>基于二创后的CM3D2.YATranslator插件(<a href='https://github.com/BDFFZI/CM3D2.YATranslator.git' target="_blank" rel="noreferrer">BDFFZI.CM3D2.YATranslator</a>)</li>
                                 <li>来自杂酱整合包的汉化文件(B站up：zaj2001)</li>
                             </ul>
                         </div>
@@ -105,7 +111,7 @@ const MenuItem = {
                         <li>堪比人工的机翻质量。</li>
                     </ul>
                     <br />
-                    <Alert message="预计要等到明年年底才能正式开工，因为我需要先学习人工智能，并尝试训练相应模型，但类似的汉化模式，目前市面上已经有了。"></Alert>
+                    <Alert message="预计要等到明年发布，因为我希望能先学着搞一套能本地部署的高质量AI翻译。另外类似的汉化模式，目前市面上已经有了。"></Alert>
                 </div>
             }
         ]

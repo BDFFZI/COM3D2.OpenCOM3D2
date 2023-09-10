@@ -19,11 +19,14 @@ const MenuItem = {
         <Space direction="vertical">
             <Typography.Link href="https://www.cnblogs.com/BDFFZI/p/17647617.html" target="_blank">【COM3D2Mod教程】第一章：Mod底层原理</Typography.Link>
             <Typography.Link href="https://www.cnblogs.com/BDFFZI/p/17660468.html" target="_blank">【COM3D2Mod教程】第二章：Mod制作概要</Typography.Link>
-            制作中......
+            <Typography.Link href="https://www.cnblogs.com/BDFFZI/p/17689349.html" target="_blank">【COM3D2Mod教程】第三章：实战！制作身体部分（上）</Typography.Link>
+            <Typography.Link href="https://www.cnblogs.com/BDFFZI/p/17689415.html" target="_blank">【COM3D2Mod教程】第四章：实战！制作身体部分（中）</Typography.Link>
+            <Typography.Link href="https://www.cnblogs.com/BDFFZI/p/17690369.html" target="_blank">【COM3D2Mod教程】第五章：实战！制作身体部分（下）</Typography.Link>
+            视频制作中......
         </Space>
         <Typography.Title level={2}>3. 进阶</Typography.Title>
         <blockquote>让老婆能穿上自己的原设衣装，让别人看了能直呼大佬！</blockquote>
-        制作中......
+        制作中......（预计2023年底发布）
     </Typography.Paragraph>
 
 }

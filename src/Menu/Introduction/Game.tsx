@@ -104,13 +104,14 @@ const MenuItem = {
             <Space direction='vertical'>
               获取到游戏的种子或磁链后，使用p2p下载软件进行下载（新建离线任务），比如：
               <ul>
-                国内下载器（限速，有敏感文件问题）：
-                <li>百度网盘（有大小限制问题，资源似乎已被封杀）</li>
-                <li>迅雷（会卡99%，但小白推荐）</li>
-                国外下载器（不限速但要倒弄，受网络环境影响）
+                国内下载器<Typography.Text type="danger">（限速，有敏感文件问题）</Typography.Text>：
+                <li><Typography.Text type="success">迅雷</Typography.Text>（会卡99%，但小白推荐）</li>
+                <li>百度网盘（有大小限制问题，部分资源已封杀）</li>
+                <li>阿里云盘（有人用过，结果下载不全）</li>
+                国外下载器<Typography.Text type="danger">（不限速但要倒弄，受网络环境影响）</Typography.Text>：
                 <li>
-                  qBittorrent
-                  <a href="https://www.bilibili.com/video/BV1CM411B7Fu" target="_blank" rel="noreferrer" >（开源软件，站长用的这个，一晚上下好）</a>
+                  <Typography.Text type="success">qBittorrent</Typography.Text>
+                  （开源干净不限速，站长用的这个，一晚上下好）
                 </li>
                 <li>BitComet（闭源有广告）</li>
               </ul>
@@ -119,17 +120,18 @@ const MenuItem = {
               <ul>
                 <li>种子下载是可以跨软件续下的，如果一个下载器出了问题，不要删除文件。换成另一个下载器新建下载时，只要将保存路径设置的一样就可以继续下载。</li>
                 <li>如果部分文件缺失或损坏，利用上述方法，还可以让种子下载器自动检测并修复错误的文件，如果下载器确实没报下载问题，那你可以考虑问题是否出在其他地方了。</li>
+                <li> <Typography.Text type="success">综上所述最佳的种子下载姿势其实是：先用迅雷下载到99%限速的时候，再换成qBittorrent下载剩余部分和敏感文件，这样下载最全最快且能打破商业垄断，完美~</Typography.Text></li>
               </ul>
             } />
           </Typography.Paragraph>
         </li>
         <li>
           <Typography.Paragraph>
-            下载完就可以享受啦！(这是官方的
+            下载完就可以享受啦！接着可以看一下
             <a href={Links.get("COM3D2产品一览")} target="_blank" rel="noreferrer">
-              COM3D2产品一览
+              COM3D2重点产品一览
             </a>
-            ，你可以在此查缺补漏。)
+            ，你可以在此初步了解这款游戏包含的内容。
           </Typography.Paragraph>
         </li>
       </ol >
