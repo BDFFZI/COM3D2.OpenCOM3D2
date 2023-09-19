@@ -23,9 +23,9 @@ const MenuItem = {
                 </Card>
                 <Card title="配套视频" type="inner">
                     <Space direction="vertical">
-                        <ButtonLink href="https://www.bilibili.com/video/BV148411i7uy/">解读视频（序章~第三章内容）</ButtonLink>
-                        <ButtonLink href="https://www.bilibili.com/video/BV148411i7uy/">实操视频（第四章内容）</ButtonLink>
-                        <ButtonLink href="https://www.bilibili.com/video/BV148411i7uy/">实操视频（第五章内容）</ButtonLink>
+                        <Typography.Link href="https://www.bilibili.com/video/BV148411i7uy/" target="_blank">【COM3D2】Mod制作教程（一）基础知识与工具准备（序章~第三章内容）</Typography.Link>
+                        <Typography.Link href="https://www.bilibili.com/video/BV1w8411z7ee/" target="_blank">【COM3D2】Mod制作教程（二）制作第一个帽子Mod（第四章内容）</Typography.Link>
+                        <Typography.Link href="https://www.bilibili.com/video/BV1MV411P7Q2/" target="_blank">【COM3D2】Mod制作教程（三）制作剩余的头发和眼睛（第五章内容）</Typography.Link>
                     </Space>
                 </Card>
             </Card>

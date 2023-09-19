@@ -2,6 +2,9 @@ import { ReactNode } from "react"
 
 const Log: { time: string, content: ReactNode }[] = [
     {
+        time: "2023.9.11", content: "增加了Mod制作教程配套视频。然后要暂时要弃坑几个月。"
+    },
+    {
         time: "2023.9.10", content: "完成Mod制作教程第一期。"
     },
     {
