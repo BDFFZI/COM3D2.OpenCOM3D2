@@ -57,37 +57,50 @@ const MenuItem = {
                       <Typography.Paragraph>
                         磁力链接：magnet:?xt=urn:btih:a5ddd0ffbe7571146ce828ae146d3b0fafdebbd7
                         <div></div>
-                        来源网站：https://ggbases.dlgal.com/view.so?id=117875
+                        来源网站：https://ggbases.dlgal.com/
                       </Typography.Paragraph>
                     }
                   >
-                    <Button type="primary">COM3D2 2.28 全DLC整合版（小白推荐）</Button>
+                    <Button type="primary">COM3D2 2.28 全DLC整合版（国内主流）</Button>
+                  </Popconfirm>
+                  <Popconfirm
+                    title="下载地址"
+                    showCancel={false}
+                    description={
+                      <Typography.Paragraph>
+                        磁力链接：magnet:?xt=urn:btih:7485b2a5ae42543f3a8d0b6e5c49f5ce80ef3511
+                        <div></div>
+                        来源网站：https://ggbases.dlgal.com/
+                      </Typography.Paragraph>
+                    }
+                  >
+                    <Button type="primary">COM3D2&CM3D2 2023终极版（国外主流）</Button>
                   </Popconfirm>
                   <Button disabled>其他请查看“发现-相关链接”栏目</Button>
                 </Space>
               </div>
-              <Alert
-                showIcon
-                type="error"
-                message="现在我只推荐你下载COM3D2 2.28，因为已知一些新版本存在插件兼容问题，除非你知道自己在做什么，不然请下载COM3D2 2.28！"
-              />
               <Alert type="warning" message="注意" description={
                 <ul>
                   <li>目前推荐的汉化插件是针对游戏COM3D2 2.28版本的，其他版本会略有问题！</li>
                   <li>随时间推移，整合包中的DLC一定会有缺漏（可使用DLC检测工具检查），若有需要请自行通过“相关链接”栏目更新。</li>
                 </ul>
               } />
-              <Alert type="info" message="你想选择自行下载？" description={
+              <Alert type="info" message="关于游戏下载的一些建议？" description={
                 <div>
-                  <Typography.Paragraph>
-                    上文推荐本体对<Typography.Text type="danger">会折腾的人</Typography.Text>来说确实并非最优版本，目前最推荐的是老外主流的年度版，这个是每年都会推新，包含CM3D2和COM3D2两款游戏（用于联动功能），真正的最全最新，是国外下载量最高的游戏本体。
-                    <br></br>
-                    由于几乎所有文件都来源于国外分享，选择和老外的路线一致，兼容性是最好的，也因此和后续“Mod分享”专栏中提到的优质Mod整合包完美兼容。
-                    <br></br>
-                    但注意少许插件包括汉化和这个版本并不完全兼容，实际上国内用到翻译插件在国外早就过时淘汰了，下一章装插件时你就会发现CMI中自带的翻译插件和我们的汉化插件并不一样。
-                  </Typography.Paragraph>
+                  <ol>
+                    <li>
+                      之前我一直都推荐小白使用国内主流的版本，因为这个和国内的插件环境比较兼容，也方便你日后找到大部队后不需要重下游戏。
+                    </li>
+                    <li>
+                      但如果你<Typography.Text type="danger">个人动手能力比较强</Typography.Text>，我更推荐的是老外主流的终极版版。
+                      <br></br>- 这个是每年都会推新，包含CM3D2和COM3D2两款游戏（用于联动功能），真正的最全最新，是国外下载量最高的游戏本体。
+                      <br></br>- 由于几乎所有文件都来源于国外分享，选择和老外的路线一致，兼容性是最好的，也因此和后续“Mod分享”专栏中提到的优质Mod整合包完美兼容。
+                      <br></br>- 而且这个版本似乎能解决一个相当严重的已知漏洞，如果可行，那这个版本对部分人来说优先级相当大。
+                      <br></br>- 但注意少许插件包括汉化和这个版本并不完全兼容，实际上国内用到翻译插件在国外早就过时淘汰了，下一章装插件时你就会发现CMI中自带的翻译插件和我们的汉化插件并不一样。
+                    </li>
+                  </ol>
                   <ul >
-                    下载其他版本时的提示：
+                    或者你也可以自己寻找一些上述推荐版本之外的资源：
                     <li>要尽可能下载全DLC版，单独装容易缺文件，而且很多Mod会用到里面的功能。</li>
                     <li>国内是COM3D2主流，国外是COM3D2.5，COM3D2的东西在COM3D2.5也能用，但反之不行。</li>
                     <li>COM3D2.5和COM3D2的区别主要是画质，2.5的模型更精细一点，皮肤纹理更丰富，比如能清晰的看到锁骨痕迹。</li>
