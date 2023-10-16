@@ -55,8 +55,8 @@ const MenuItem = {
                     </div>
             },
             {
-                title: "V3.2版（最佳兼容版本 COM3D2 2.28）（推荐）",
-                extra: <ButtonLink href="https://wwzc.lanzouj.com/i1U2R13t4ztc" >下载</ButtonLink>,
+                title: "V3.3版（最佳兼容版本 COM3D2 2.28）（推荐）",
+                extra: <ButtonLink href="https://wwzc.lanzouj.com/ikghe1bz5isj" >下载</ButtonLink>,
                 content:
                     <Space direction="vertical">
                         <div>
@@ -69,7 +69,6 @@ const MenuItem = {
                         <div>
                             优点：
                             <ul>
-                                <li>修复了前代v3无法使用“摄影模式-场景选择”的问题。（实测修个毛）</li>
                                 <li>包含v2翻译，支持补翻缺漏的文本。（默认关闭v2，防止重复翻译）</li>
                                 <li>本地翻译，无延迟，无额度限制。</li>
                                 <li>含图片汉化，汉化全，部分内容人工翻译。</li>
@@ -111,7 +110,7 @@ const MenuItem = {
                         <li>堪比人工的机翻质量。</li>
                     </ul>
                     <br />
-                    <Alert message="预计要等到明年发布，因为我希望能先学着搞一套能本地部署的高质量AI翻译。另外类似的汉化模式，目前市面上已经有了。"></Alert>
+                    <Alert message="预计要等到2024年下半年才能发布，事务比较繁忙，且希望能自己学着搞一套能本地部署的高质量AI翻译。不过类似的汉化模式，目前市面上已经有了。"></Alert>
                 </div>
             }
         ]
