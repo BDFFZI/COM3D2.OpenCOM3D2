@@ -5,6 +5,12 @@ const Log: { time: string, content: ReactNode }[] = [
         time: "2023.10.16", content: "修复了汉化补丁v3中说明文件的快捷键文案错误。"
     },
     {
+        time: "2023.9.25", content: "增加2023终极版COM3D2游戏本体整合链接，并优化相关文案，这似乎可以解决一个致命的已知漏洞。"
+    },
+    {
+        time: "2023.9.19", content: "修复了“COM3D2社区_Discord”链接无法使用的问题。"
+    },
+    {
         time: "2023.9.11", content: "增加了Mod制作教程配套视频。然后要暂时要弃坑几个月。"
     },
     {

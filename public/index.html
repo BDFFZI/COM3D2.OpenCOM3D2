@@ -4,7 +4,8 @@
 <head>
   <script>
     var storedTimestamp = localStorage.getItem("timestamp");//上一次的时间戳
-    var timestamp = new Date().getTime(); // 获取当前时间戳
+    var timestamp = Date.now(); // 获取当前时间戳
+    console.log('当前时间：' + timestamp);
 
     if (storedTimestamp === null || timestamp - storedTimestamp > (1000 * 60 * 5)) {
       // 构建新的URL
