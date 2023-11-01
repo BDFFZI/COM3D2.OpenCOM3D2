@@ -2,6 +2,9 @@ import { ReactNode } from "react"
 
 const Log: { time: string, content: ReactNode }[] = [
     {
+        time: "2023.11.1", content: "更新了主页内容，为退坑游戏做准备。"
+    },
+    {
         time: "2023.9.25", content: "增加2023终极版COM3D2游戏本体整合链接，并优化相关文案，这似乎可以解决一个致命的已知漏洞。"
     },
     {
