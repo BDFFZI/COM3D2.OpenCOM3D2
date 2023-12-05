@@ -2,6 +2,9 @@ import { ReactNode } from "react"
 
 const Log: { time: string, content: ReactNode }[] = [
     {
+        time: "2023.12.5", content: "去除了原有的“常见问题”和“已知漏洞”版块，所有类似的东西都已迁移到Issue处理。"
+    },
+    {
         time: "2023.11.1", content: "更新了主页内容，为退坑游戏做准备。"
     },
     {

@@ -32,12 +32,28 @@ function Page() {
             backgroundSize: "cover",
             backgroundPosition: "center left"
         }}>
-            <Layout.Header style={{ display: "flex", alignItems: "center" }}>
-                <Typography.Paragraph type="danger" style={{ margin: "0" }}>站长已半退坑，除了后续的Mod教程和V4汉化外，只会进行维护性更新。</Typography.Paragraph>
+            <Layout.Header style={{ height: "170px" }}>
+                <Space direction="vertical">
+                    <Typography.Paragraph type="danger" style={{ margin: "0" }}>站长已半退坑，除了后续的Mod教程和V4汉化外，只会进行维护性更新。</Typography.Paragraph>
+                    <Alert
+                        showIcon
+                        type="warning"
+                        message="如果你现在仍有要解决的问题，请查看“入门-常见问题”分栏，这是解决任何问题的办法，且长期有效。"
+                    ></Alert>
+                    <Alert
+                        showIcon
+                        type="info"
+                        message={
+                            <div>如果你希望加入群聊，我在“沟通-联系站长”分栏中留了一个闲聊群，但人数不多，可能不是你想找的大部队。</div>
+                        }
+                    ></Alert>
+                </Space>
             </Layout.Header>
 
-            <Layout.Content style={{ padding: 24, minHeight: '750px', display: "flex", flexDirection: "column", justifyContent: "space-between" }}>
+            <Layout.Content style={{ padding: 24, minHeight: '650px', display: "flex", flexDirection: "column", justifyContent: "space-between" }}>
                 <div>
+
+
                     <Typography.Title>欢迎来到{<span>{SiteName}</span>}</Typography.Title>
                     <Typography.Paragraph>
                         这是站长个人用于收集和分享COM3D2资源和教程的网站，也是为了解决直链更新的麻烦以及避免被恶意举报的办法。
@@ -49,20 +65,7 @@ function Page() {
                             请查阅左侧<Typography.Text strong>发现分栏</Typography.Text>，深入了解和获取一些额外内容，丰富你的游戏体验。</div>
                         <div><Typography.Title level={2} style={{ display: "inline" }} keyboard>学搞开发？</Typography.Title>
                             请查阅左侧<Typography.Text strong>研究分栏</Typography.Text>，学习游戏组成原理，实现自己制作Mod。</div>
-                        <Alert
-                            showIcon
-                            type="warning"
-                            message={
-                                <div>有任何问题请 <Typography.Link href="https://gitee.com/bdffzi/Page.OpenCOM3D2/issues">查看或发布Issue</Typography.Link>，发布在此的问题我必定回答但不保证能解决。（使用其他问答途径可能会被我忽略）</div>
-                            }
-                        ></Alert>
-                        <Alert
-                            showIcon
-                            type="info"
-                            message={
-                                <div>如果你希望加入群聊，我在“沟通-联系站长”分栏中留了一个闲聊群，但人数不多，可能不是你想找的大部队。</div>
-                            }
-                        ></Alert>
+
                     </Space>
 
                     {/* <iframe

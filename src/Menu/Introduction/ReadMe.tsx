@@ -1,4 +1,6 @@
 import { Alert, Button, Typography } from "antd";
+import { ButtonLink } from "../../Data/Components";
+import Links from "../../Data/Links";
 
 const MenuItem = {
     label: <Typography.Text type="success">新人必读</Typography.Text>,
@@ -16,7 +18,11 @@ const MenuItem = {
         </Typography.Paragraph>
         <Alert showIcon type="warning"
             message="所以如果你是个纯小白，请严格按照下方视频的流程安装。"
-            description="这里只是一个导航站，我没有精力去一一解答所有问题，大部分都需要靠你自己，所以除非你知道自己在干什么，不然请按下方视频操作。"
+            description={<div>
+                这里只是一个导航站，我没有精力去一一解答所有问题，大部分都需要靠你自己，所以除非你知道自己在干什么，不然请按下方视频操作。
+                <br></br>
+                如果按照视频操作但依旧遇上问题，请查看同栏目的<Typography.Text type="danger">常见问题</Typography.Text>板块，并按照指引查看或发布Issue。
+            </div>}
         />
         <Typography.Title>开始入门</Typography.Title>
         <Typography.Paragraph>

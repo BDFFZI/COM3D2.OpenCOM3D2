@@ -47,18 +47,20 @@ function Page() {
         <Divider></Divider>
         <Alert showIcon type="success" message={
             <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between" }}>
-                恭喜你，你已经完成了所有入门教程现在可以尽情的愉快玩耍了。
+                <div>
+                    恭喜你，你已经完成了所有入门教程现在可以尽情的愉快玩耍了。
+                </div>
                 <Button onClick={() => setIsModalOpen(true)}>下一章</Button>
                 <Modal title={<LikeTwoTone twoToneColor="red" />} open={isModalOpen} onCancel={() => setIsModalOpen(false)} footer={<div></div>}>
                     你已成功抵达教程之底，或许COM3D2的女仆都将为你撼动( •̀ ω •́ )✧
                     <ul>
-                        <li>如果你还有些其他问题，可以尝试查看余下的“常见问题”和“已知漏洞”栏目解决。</li>
+                        <li>如果你还有些其他问题，可以尝试查看余下的“常见问题”栏目解决。</li>
                         <li>如果你想知道信息源头，请查看“发现-相关链接”分栏，几乎所有内容都来源于这些链接。</li>
                     </ul>
                 </Modal>
             </div>
         }></Alert>
-    </div>
+    </div >
 }
 
 const MenuItem = {

@@ -4,7 +4,6 @@ import Plugin from "./Plugin"
 import Module from "./Module"
 import ReadMe from "./ReadMe"
 import FAQ from "./FAQ"
-import BUG from "./BUG"
 
 const Menu = {
     key: '/Introduction',
@@ -16,7 +15,6 @@ const Menu = {
         Plugin,
         Module,
         FAQ,
-        BUG
     ]
 }
 export default Menu;
